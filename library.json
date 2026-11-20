@@ -110,5 +110,33 @@
     "B"
    ]
   ]
+ },
+ {
+  "slug": "poe1-elemental-hit-deadeye-covens-of-umbra",
+  "title": "Elemental Hit Deadeye",
+  "cls": "Ranger",
+  "asc": "Deadeye",
+  "objective": "League Starter",
+  "patch": "3.30.0",
+  "verified": "2026-11-20",
+  "summary": "A bow mapper: Elemental Hit of the Spectrum with Endless Munitions' extra projectiles and Mirage Archers clears screens of packs, while Artillery Ballista handles bosses. Levels with Rain of Arrows and needs no unique to work.",
+  "ratings": [
+   [
+    "League Start",
+    "A"
+   ],
+   [
+    "Clear Speed",
+    "S"
+   ],
+   [
+    "Bossing",
+    "B"
+   ],
+   [
+    "Survivability",
+    "C"
+   ]
+  ]
  }
 ]
