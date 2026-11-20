@@ -1,0 +1,114 @@
+[
+ {
+  "slug": "poe1-storm-burst-of-repulsion-totem-hierophant-covens-of-umbra",
+  "title": "Storm Burst of Repulsion Totem Hierophant",
+  "cls": "Templar",
+  "asc": "Hierophant",
+  "objective": "League Starter",
+  "patch": "3.30.0",
+  "verified": "2026-11-16",
+  "summary": "Totems channel Storm Burst of Repulsion for you while you move: orbs jump outward and explode for damage that scales with their remaining Duration. The Hierophant adds an extra Totem right after the first Labyrinth.",
+  "ratings": [
+   [
+    "League Start",
+    "S"
+   ],
+   [
+    "Clear Speed",
+    "A"
+   ],
+   [
+    "Bossing",
+    "A"
+   ],
+   [
+    "Survivability",
+    "A"
+   ]
+  ]
+ },
+ {
+  "slug": "poe1-poison-summon-raging-spirits-necromancer-covens-of-umbra",
+  "title": "Poison Summon Raging Spirits Necromancer",
+  "cls": "Witch",
+  "asc": "Necromancer",
+  "objective": "League Starter",
+  "patch": "3.30.0",
+  "verified": "2026-11-16",
+  "summary": "You summon a cloud of flaming spirits that chase enemies down and, once you add poison, stack chaos damage on everything they touch. You run, cast and curse while the minions do the work, and the Necromancer makes them tougher and hit harder.",
+  "ratings": [
+   [
+    "League Start",
+    "A"
+   ],
+   [
+    "Clear Speed",
+    "A"
+   ],
+   [
+    "Bossing",
+    "B"
+   ],
+   [
+    "Survivability",
+    "B"
+   ]
+  ]
+ },
+ {
+  "slug": "poe1-tornado-shot-reliquarian-covens-of-umbra",
+  "title": "Tornado Shot Reliquarian",
+  "cls": "Scion",
+  "asc": "Reliquarian",
+  "objective": "League Starter",
+  "patch": "3.30.0",
+  "verified": "2026-11-20",
+  "summary": "You aim once and the arrow does the rest: Tornado Shot flies to the target spot, then bursts into more arrows, a Mirage Archer copies the shot, and the Reliquarian lets every arrow fork. You run fast the whole time, and by the endgame you hold one attack button and tap a blink to reposition.",
+  "ratings": [
+   [
+    "League Start",
+    "A"
+   ],
+   [
+    "Clear Speed",
+    "A"
+   ],
+   [
+    "Bossing",
+    "B"
+   ],
+   [
+    "Survivability",
+    "B"
+   ]
+  ]
+ },
+ {
+  "slug": "poe1-pyroclast-mine-saboteur-covens-of-umbra",
+  "title": "Pyroclast Mine Saboteur",
+  "cls": "Shadow",
+  "asc": "Saboteur",
+  "objective": "League Starter",
+  "patch": "3.30.0",
+  "verified": "2026-11-20",
+  "summary": "You throw Pyroclast Mine: it explodes, rains fiery projectiles and puts a fire exposure aura on the pack. Automation and Detonate Mines set the mines off for you, so you throw, run and let the Saboteur do the rest.",
+  "ratings": [
+   [
+    "League Start",
+    "A"
+   ],
+   [
+    "Clear Speed",
+    "B"
+   ],
+   [
+    "Bossing",
+    "A"
+   ],
+   [
+    "Survivability",
+    "B"
+   ]
+  ]
+ }
+]
