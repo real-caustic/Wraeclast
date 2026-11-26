@@ -37,13 +37,13 @@ input[type=search]{flex:1 1 200px;min-width:0;background:var(--panel);color:var(
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 </style></head><body><main>
 <h1>Wraeclast Architect</h1>
-<p class="sub">Path of Exile 1 league-starter guides and loot filters. Works offline once opened. <span id="status"></span></p>
+<p class="sub">Path of Exile league-starter and levelling guides, with a loot filter for each build. Works offline once opened. <span id="status"></span></p>
 <div class="tools">
 <input id="q" type="search" placeholder="Search class, skill or ascendancy" aria-label="Search builds">
 <button class="chip" id="install" type="button">Install app</button>
 </div>
 <div id="list" aria-live="polite"></div>
-<p class="note">Loot filters: download the .filter file, then copy it into <b>Documents/My Games/Path of Exile</b> on the PC that runs the game, and pick it in Options &rarr; UI. Grades are the guide's own, and none of these builds has been playtested yet.</p>
+<p class="note">Loot filters: download the .filter file, then copy it into <b>Documents/My Games/Path of Exile</b> (PoE 1) or <b>Documents/My Games/Path of Exile 2</b> (PoE 2) on the PC that runs the game, and pick it in Options &rarr; UI. Grades are the guide's own, and none of these builds has been playtested yet.</p>
 </main>
 <script>
 (function(){
@@ -54,10 +54,10 @@ function draw(){
   var t=q.value.trim().toLowerCase(),n=0;
   list.innerHTML=lib.filter(function(b){return !t||(b.title+" "+b.cls+" "+b.asc+" "+b.objective).toLowerCase().indexOf(t)>=0;}).map(function(b){n++;
     var r=resume(b.slug);
-    return'<section class="card"><h2>'+esc(b.title)+'</h2><div class="meta">'+esc(b.cls)+" &middot; "+esc(b.asc)+" &middot; patch "+esc(b.patch)+" &middot; checked "+esc(b.verified)+'</div>'+
+    return'<section class="card"><h2>'+esc(b.title)+'</h2><div class="meta">'+(b.game==="poe2"?"PoE 2 &middot; ":"PoE 1 &middot; ")+esc(b.cls)+" &middot; "+esc(b.asc)+" &middot; patch "+esc(b.patch)+" &middot; checked "+esc(b.verified)+'</div>'+
     '<div class="grades">'+b.ratings.map(function(x){return'<span class="g">'+esc(x[0])+' <b class="'+esc(x[1])+'">'+esc(x[1])+'</b></span>';}).join("")+'</div>'+
     '<p>'+esc(b.summary)+'</p><div class="row"><a class="btn p" href="guides/'+esc(b.slug)+'.html">Open guide</a>'+
-    '<a class="btn s" href="filters/'+esc(b.slug)+'.filter" download="'+esc(b.slug)+'.filter">Loot filter</a>'+(r?'<span class="resume">'+r+'</span>':"")+'</div></section>';}).join("");
+    (b.filter===false?"":'<a class="btn s" href="filters/'+esc(b.slug)+'.filter" download="'+esc(b.slug)+'.filter">Loot filter</a>')+(r?'<span class="resume">'+r+'</span>':"")+'</div></section>';}).join("");
   if(!n)list.innerHTML='<p class="empty">No build matches that search.</p>';
 }
 fetch("library.json").then(function(r){return r.json();}).then(function(d){lib=d;draw();}).catch(function(){list.innerHTML='<p class="empty">Could not load the library.</p>';});

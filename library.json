@@ -1,6 +1,7 @@
 [
  {
   "slug": "poe1-storm-burst-of-repulsion-totem-hierophant-covens-of-umbra",
+  "game": "poe1",
   "title": "Storm Burst of Repulsion Totem Hierophant",
   "cls": "Templar",
   "asc": "Hierophant",
@@ -29,6 +30,7 @@
  },
  {
   "slug": "poe1-poison-summon-raging-spirits-necromancer-covens-of-umbra",
+  "game": "poe1",
   "title": "Poison Summon Raging Spirits Necromancer",
   "cls": "Witch",
   "asc": "Necromancer",
@@ -57,6 +59,7 @@
  },
  {
   "slug": "poe1-tornado-shot-reliquarian-covens-of-umbra",
+  "game": "poe1",
   "title": "Tornado Shot Reliquarian",
   "cls": "Scion",
   "asc": "Reliquarian",
@@ -85,6 +88,7 @@
  },
  {
   "slug": "poe1-pyroclast-mine-saboteur-covens-of-umbra",
+  "game": "poe1",
   "title": "Pyroclast Mine Saboteur",
   "cls": "Shadow",
   "asc": "Saboteur",
@@ -112,14 +116,15 @@
   ]
  },
  {
-  "slug": "poe1-elemental-hit-deadeye-covens-of-umbra",
-  "title": "Elemental Hit Deadeye",
-  "cls": "Ranger",
-  "asc": "Deadeye",
-  "objective": "League Starter",
-  "patch": "3.30.0",
-  "verified": "2026-11-20",
-  "summary": "A bow mapper: Elemental Hit of the Spectrum with Endless Munitions' extra projectiles and Mirage Archers clears screens of packs, while Artillery Ballista handles bosses. Levels with Rain of Arrows and needs no unique to work.",
+  "slug": "poe2-stormweaver-arc-levelling",
+  "game": "poe2",
+  "title": "Stormweaver Arc Levelling Sorceress",
+  "cls": "Sorceress",
+  "asc": "Stormweaver",
+  "objective": "Levelling plus early maps",
+  "patch": "0.5.5",
+  "verified": "2026-11-26",
+  "summary": "A lightning caster that levels on Spark, switches to Arc in late Act 1 and keeps Frost Bomb and Orb of Storms running alongside it, then carries the same setup into the first Waystones. Written for patch 0.5.5; patch 1.0 arrives on 11 December, so re-check it then.",
   "ratings": [
    [
     "League Start",
@@ -127,7 +132,7 @@
    ],
    [
     "Clear Speed",
-    "S"
+    "A"
    ],
    [
     "Bossing",
@@ -136,6 +141,35 @@
    [
     "Survivability",
     "C"
+   ]
+  ]
+ },
+ {
+  "slug": "poe2-varashta-djinn-levelling",
+  "game": "poe2",
+  "title": "Varashta Djinn Commander Sorceress",
+  "cls": "Sorceress",
+  "asc": "Disciple of Varashta",
+  "objective": "Levelling plus early maps",
+  "patch": "0.5.5",
+  "verified": "2026-11-26",
+  "summary": "A Sorceress who levels on chaos damage over time (Contagion and Essence Drain), switches to Bonestorm at level 14, and from the first Ascendancy trial commands Djinn: Kelari's Brutality and Kelari's Deception for single targets, Ruzhan's Trap for clearing. Written for patch 0.5.5; patch 1.0 arrives on 11 December, so re-check it then.",
+  "ratings": [
+   [
+    "League Start",
+    "A"
+   ],
+   [
+    "Clear Speed",
+    "C"
+   ],
+   [
+    "Bossing",
+    "A"
+   ],
+   [
+    "Survivability",
+    "B"
    ]
   ]
  }
